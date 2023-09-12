@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-weight: bolder;
+  }
+  img{
+    background-size:100%;
+  }
+  header {
+    background-color: lightgray;
+    color: #fff;
+    font-size: 3em;
+  }
+  footer {
+    background-color: lightgray;
+    color: #fff;
+    font-size: 2em;
+  }
+  .header-title {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #e1e1e1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .footer-title {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #e1e1e1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  main {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+  }
+  .one-item {
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+  }
+  .img-one-item{
+    width: 350px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .two-item {
+    width: 550px;
+    max-width: 100%;
+    height: 300px;
+  }
+  .img-two-item{
+    width: 550px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .three-item {
+    width: 250px;
+    height: 300px;
+  }
+  .img-three-item{
+    width: 250px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .item-image-bg {
+    background-color: #e1e1e1;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .item-title {
+    background-color: lightgray;
+    width: 80%;
+    height: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .item-subtitle {
+    background-color: darkgrey;
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+
+  }
+  .title {
+    color: darkgrey;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    section{
+        flex-wrap: wrap;}
+  }
+  @media only screen and (max-width: 690px){
+    .one-item , .two-item , .three-item{
+        margin: auto;
+    }
+    .title{
+        text-align: center;
+    }
+    }
+  @media only screen and (max-width: 414px) {
+    .item-title , .item-subtitle{
+      margin: auto;
+     } 
+     .item-title {
+      margin-top: 20px;
+      margin-bottom: 20px;
+     }
+   .one-item , .two-item{
+    width: 84%;
+    margin: auto;
+   }
+ }
